@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrincipleDemo", "DependencyInversionPrincipleDemo\DependencyInversionPrincipleDemo.csproj", "{3DFF8DAB-3D7B-4261-9157-CDFC521BE9A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLibrary", "DemoLibrary\DemoLibrary.csproj", "{C103EDB3-1033-40D3-8F21-6C19185B0617}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DFF8DAB-3D7B-4261-9157-CDFC521BE9A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DFF8DAB-3D7B-4261-9157-CDFC521BE9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DFF8DAB-3D7B-4261-9157-CDFC521BE9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DFF8DAB-3D7B-4261-9157-CDFC521BE9A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C103EDB3-1033-40D3-8F21-6C19185B0617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C103EDB3-1033-40D3-8F21-6C19185B0617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C103EDB3-1033-40D3-8F21-6C19185B0617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C103EDB3-1033-40D3-8F21-6C19185B0617}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65CB7A78-D824-4B4E-8D02-5DD7FBA6E5D9}
+	EndGlobalSection
+EndGlobal
